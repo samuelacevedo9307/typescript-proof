@@ -1,0 +1,22 @@
+{
+  "name": "typescript-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "api:start": "json-server ./api/db.json --port 4000"
+  },
+  "devDependencies": {
+    "@types/toastify-js": "^1.12.3",
+    "json-server": "1.0.0-beta.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.0"
+  },
+  "dependencies": {
+    "@picocss/pico": "^2.0.6",
+    "toastify-js": "1.12.0"
+  }
+}
